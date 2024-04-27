@@ -1,0 +1,14 @@
+let al =parseFloat(prompt('qual é sua altura?'))
+let mu =(prompt('qual seu genero?'))
+
+
+if (mu == 'feminino'){
+let conta = (62.1*al)-44.7
+console.log('vc deve pesar')
+console.log(conta) 
+    }
+
+if(mu == 'masculino'){
+    let conta = (72.7*al)-58
+    console.log('vc deve pesar')
+    console.log(conta)
